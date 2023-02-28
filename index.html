@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red de artículos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84d289294d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__h2">Red de artículos</h2>
+        <i class="fa-sharp fa-solid fa-plus header__i"></i>
+    </header>
+
+    <section id="sectionmodal" class="sectionmodalnovisible"> 
+        <div id="modal" class="modalnovisible">
+            <h2>Nuevo artículo</h2>
+            <div>   
+                <textarea placeholder="Autor" required class="modal__autor modal__item"></textarea>
+                <textarea placeholder="Título" required class="modal__titulo modal__item"></textarea>
+                <textarea placeholder="Contenido" required class="modal__info modal__item"></textarea>
+                <div>
+                    <input type="submit" value="Publicar" class="publicar modal__item">
+                    <input type="submit" value="Cancelar" class="cancelar modal__item">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publicaciones">
+
+    </section>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
